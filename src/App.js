@@ -55,7 +55,7 @@ export default function App() {
                 Stop
             </button>
             <button className='reset-button offset-1 col-2 btn-danger' onClick={reset}>Reset</button>
-            <button className='wait-button offset-1 col-2 btn-danger' onClick={wait}>Wait</button>
+            <button className='wait-button offset-1 col-2 btn-danger' onDoubleClick={wait}>Wait</button>
 
         </div>
     );
